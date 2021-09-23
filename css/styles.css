@@ -1,3 +1,10 @@
+p {
+  font-size: 28px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 0px;
+}
+
 .logo-text {
   padding-top: 0px;
 }
@@ -45,4 +52,93 @@
   width: 100px;
   height: 35px;
   font-size: 14px;
+}
+
+.test-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.test-button {
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.test-button:hover {
+  background-color: rgb(192, 18, 18);
+}
+
+.obvious-reasons-span {
+  display: block;
+  font-size: 12px;
+}
+
+.small-videos {
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+.small-videos:hover {
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+
+.small-videos:hover > .title-video-card {
+  color: rgb(255, 7, 7);
+}
+
+.latest-videos-image {
+  height: 250px;
+  width: 100%;
+}
+
+.latest-videos-image2 {
+  height: 250px;
+  width: 100%;
+}
+
+.latest-videos-image3 {
+  height: 250px;
+  width: 100%;
+}
+
+.date-video-card {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.title-video-card {
+  width: 350px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: black;
+  height: 180px;
+  text-align: center;
+}
+
+.footer-p {
+  margin-bottom: 0px;
+  color: white;
+  padding-top: 60px;
+}
+
+.footer-p-sm {
+  margin-bottom: 0px;
+  color: white;
+  font-size: 18px;
 }
